@@ -159,7 +159,7 @@ function check()
             WinnersWindow(three);
   else if(count==9)
     {
-        document.getElementById("WinWin").innerHTML="<h1 style=\"text-align: center; margin-top: 400px; font-size:8em; color: darkslateblue\">No One Wins</h1><br><h1 style=\"text-align: center; font-size: 4em; margin-top:100px; color: darkslateblue\">Restarting Game in 2sec...</h1>"
+        document.getElementById("WinWin").innerHTML="<h1 style=\"text-align: center; margin-top: 200px; font-size:4em; color: darkslateblue\">No One Wins</h1><br><h1 style=\"text-align: center; font-size: 2em; margin-top:100px; color: darkslateblue\">Restarting Game in 2sec...</h1>"
         setTimeout(function(){location.reload()},2000);
     }
     
@@ -168,10 +168,10 @@ function check()
 function WinnersWindow(winner)
 {
    if(winner.innerHTML=="<img src=\"images/jerry.png\" alt=\"cat\">")
-       document.getElementById("WinWin").innerHTML="<h1 style=\"text-align: center; margin-top: 400px; font-size:8em; color: darkslateblue\">Jerry Wins</h1><br><h1 style=\"text-align: center; font-size: 4em; margin-top:100px; color: darkslateblue\">Restarting Game in 2sec...</h1>";
+       document.getElementById("WinWin").innerHTML="<h1 style=\"text-align: center; margin-top: 200px; font-size:4em; color: darkslateblue\">Jerry Wins</h1><br><h1 style=\"text-align: center; font-size: 2em; margin-top:100px; color: darkslateblue\">Restarting Game in 2sec...</h1>";
     
     else if(winner.innerHTML=="<img src=\"images/tom.png\" alt=\"cat\">")
-       document.getElementById("WinWin").innerHTML="<h1 style=\"text-align: center; margin-top: 400px; font-size:8em; color: darkslateblue\">Tom Wins</h1><br><h1 style=\"text-align: center; font-size: 4em; margin-top:100px; color: darkslateblue\">Restarting Game in 2sec...</h1>";
+       document.getElementById("WinWin").innerHTML="<h1 style=\"text-align: center; margin-top: 200px; font-size:4em; color: darkslateblue\">Tom Wins</h1><br><h1 style=\"text-align: center; font-size: 2em; margin-top:100px; color: darkslateblue\">Restarting Game in 2sec...</h1>";
     
     setTimeout(function(){location.reload()},2000);
    
