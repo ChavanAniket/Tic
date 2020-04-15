@@ -136,7 +136,7 @@ function playerTurn(division)
         play(0,division);
     else if(count%2==1)
         play(1,division);
-    if(count==9)
+    if(count>9)
     {
         document.getElementById("WinWin").innerHTML="<h1 style=\"text-align: center; margin-top: 400px; font-size:8em; color: darkslateblue\">No One Wins</h1><br><h1 style=\"text-align: center; font-size: 4em; margin-top:100px; color: darkslateblue\">Restarting Game in 2sec...</h1>"
         setTimeout(function(){location.reload()},2000);
